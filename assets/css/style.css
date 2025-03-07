@@ -43,3 +43,26 @@ h1, h2 {
     min-height: 500px;
     padding: 5% 7%;
 }
+
+#portofolio .card-title {
+    color: #1f7798;
+    font-size: 1.2 rem;
+}
+
+#portofolio .btn-outline-secondary:hover {
+    background-color: #1f7798;
+}
+
+#portofolio .card-text {
+    min-height: 120px;
+}
+
+/* Media queries */
+/* Use Bootstrap breakpoint for XL screens */
+@media screen and (min-width: 1200px) {
+    /* Fixes all portofolio cards being too tall on xl screens */
+    #portofolio .card-text {
+        min-height: auto;
+    }
+    
+}
